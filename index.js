@@ -4,7 +4,7 @@ export default {
     const fileId = url.searchParams.get('file_id');
     
     // Yahan wahi token dalo jo aapke python bot mein hai
-    const BOT_TOKEN = "8899795978:AAFsvo8TPPE60uPudNDNpqEpsro2NYqEASg";
+    const BOT_TOKEN = "8962709903:AAGwR4W_Wjyll-axg02FDhzHcthDAOpKKZ0";
     
     if (!fileId) return new Response("Error: No file_id", { status: 400 });
 
